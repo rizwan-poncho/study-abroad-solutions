@@ -1,15 +1,19 @@
-import { useState } from 'react'
+import { useEffect, useState } from "react";
 
-import './App.css'
-import Layout from './Layout/Layout'
+import { Collapse, Dropdown, initTWE } from "tw-elements";
+
+import "./App.css";
+import Layout from "./Layout/Layout";
 
 function App() {
-
+  useEffect(() => {
+    initTWE({ Collapse, Dropdown });
+  }, []);
   return (
     <>
-      <Layout/>
+      <Layout />
     </>
-  )
+  );
 }
 
-export default App
+export default App;
