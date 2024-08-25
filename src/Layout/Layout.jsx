@@ -1,7 +1,7 @@
 import React, { useEffect } from "react";
-import Header from "../components/Header";
 import { Collapse, Dropdown, initTWE } from "tw-elements";
 import { Outlet } from "react-router-dom";
+import Header from "../components/shared/Header";
 
 const Layout = () => {
   useEffect(() => {

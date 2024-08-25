@@ -1,6 +1,5 @@
 import React, { useEffect } from "react";
 import { Carousel, initTWE } from "tw-elements";
-
 const HomeCarousel = () => {
   useEffect(() => {
     initTWE({ Carousel });
@@ -56,15 +55,30 @@ const HomeCarousel = () => {
             style={{ backfaceVisibility: "hidden" }}
           >
             <img
-              src="https://tecdn.b-cdn.net/img/Photos/Slides/img%20(15).jpg"
+              src="https://tecdn.b-cdn.net/img/Photos/Slides/img%20(22).jpg"
               className="block w-full h-96"
               alt="..."
             />
             <div className="absolute top-0 bottom-0 w-full hidden py-5 text-center text-white md:block">
-              <h5 className="text-xl">First slide label</h5>
-              <p>
-                Some representative placeholder content for the first slide.
-              </p>
+              <div className="px-28 grid grid-cols-2 items-center justify-start  h-full">
+                <div className="w-full h-full flex items-center">
+                  <div>
+                    <div className=" w-full h-full">
+                      <h1 className="text-3xl font-medium text-left">
+                        Last Call For Feb 2025 Intake
+                      </h1>
+                      <h1 className="text-xl text-left">
+                        Study oppurtunities in Ireland, Scotland, & Denmark!!
+                      </h1>
+                    </div>
+                    <div className="flex justify-start py-4">
+                      <button className="bg-orange-500 rounded-md transition duration-300 hover:scale-105 text-base text-white px-4 py-2">
+                        Inquire Now
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
           {/* <!--Second item--> */}
@@ -78,11 +92,26 @@ const HomeCarousel = () => {
               className="block w-full h-96"
               alt="..."
             />
-            <div className="absolute inset-x-[15%] bottom-5 hidden py-5 text-center text-white md:block">
-              <h5 className="text-xl">Second slide label</h5>
-              <p>
-                Some representative placeholder content for the second slide.
-              </p>
+            <div className="absolute top-0 bottom-0 w-full hidden py-5 text-center text-white md:block">
+              <div className="px-28 grid grid-cols-2 items-center justify-start  h-full">
+                <div className="w-full h-full flex items-center">
+                  <div>
+                    <div className=" w-full h-full">
+                      <h1 className="text-3xl font-medium text-left">
+                        Last Call For Feb 2025 Intake
+                      </h1>
+                      <h1 className="text-xl text-left">
+                        Study oppurtunities in Ireland, Scotland, & Denmark!!
+                      </h1>
+                    </div>
+                    <div className="flex justify-start py-4">
+                      <button className="bg-orange-500 rounded-md transition duration-300 hover:scale-105 text-base text-white px-4 py-2">
+                        Inquire Now
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
           {/* <!--Third item--> */}
@@ -96,11 +125,26 @@ const HomeCarousel = () => {
               className="block w-full h-96"
               alt="..."
             />
-            <div className="absolute inset-x-[15%] bottom-5 hidden py-5 text-center text-white md:block">
-              <h5 className="text-xl">Third slide label</h5>
-              <p>
-                Some representative placeholder content for the third slide.
-              </p>
+            <div className="absolute top-0 bottom-0 w-full hidden py-5 text-center text-white md:block">
+              <div className="px-28 grid grid-cols-2 items-center justify-start  h-full">
+                <div className="w-full h-full flex items-center">
+                  <div>
+                    <div className=" w-full h-full">
+                      <h1 className="text-3xl font-medium text-left">
+                        Last Call For Feb 2025 Intake
+                      </h1>
+                      <h1 className="text-xl text-left">
+                        Study oppurtunities in Ireland, Scotland, & Denmark!!
+                      </h1>
+                    </div>
+                    <div className="flex justify-start py-4">
+                      <button className="bg-orange-500 rounded-md transition duration-300 hover:scale-105 text-base text-white px-4 py-2">
+                        Inquire Now
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         </div>

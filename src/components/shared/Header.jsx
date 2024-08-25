@@ -1,7 +1,7 @@
 import React, { useEffect } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { Collapse, Dropdown, initTWE, Ripple } from "tw-elements";
-import logo from "../../src/assets/logo-01.png";
+import logo from "../../assets/logo-01.png";
 import { faCaretDown } from "@fortawesome/free-solid-svg-icons";
 
 const Header = () => {
@@ -12,7 +12,7 @@ const Header = () => {
   return (
     <>
       {/* <!-- Main navigation container --> */}
-      <nav className="flex-no-wrap relative flex w-full items-center justify-between bg-zinc-50 py-3 shadow-dark-mild dark:bg-neutral-700 lg:flex-wrap lg:justify-start lg:py-4">
+      <nav className="flex-no-wrap  relative flex w-full items-center justify-between bg-zinc-50 py-3 shadow-dark-mild dark:bg-neutral-700 lg:flex-wrap lg:justify-start lg:py-4">
         <div className="flex w-full flex-wrap items-center justify-between px-3">
           {/* <!-- Hamburger button for mobile view --> */}
           <button
@@ -84,7 +84,52 @@ const Header = () => {
                         href="#"
                         data-twe-dropdown-item-ref
                       >
-                        Action
+                        Why Study Abroad
+                      </a>
+                    </li>
+                    <li>
+                      <a
+                        class="block w-full whitespace-nowrap bg-white px-4 py-4 text-sm font-normal text-neutral-700 hover:text-white hover:bg-orange-500 focus:bg-orange-500 focus:outline-none "
+                        href="#"
+                        data-twe-dropdown-item-ref
+                      >
+                        Where & What to Study
+                      </a>
+                    </li>
+                    <li>
+                      <a
+                        class="block w-full whitespace-nowrap bg-white px-4 py-4 text-sm font-normal text-neutral-700 hover:text-white hover:bg-orange-500 focus:bg-orange-500 focus:outline-none "
+                        href="#"
+                        data-twe-dropdown-item-ref
+                      >
+                        How do i Apply
+                      </a>
+                    </li>
+                    <li>
+                      <a
+                        class="block w-full whitespace-nowrap bg-white px-4 py-4 text-sm font-normal text-neutral-700 hover:text-white hover:bg-orange-500 focus:bg-orange-500 focus:outline-none "
+                        href="#"
+                        data-twe-dropdown-item-ref
+                      >
+                        After Receiving an Offer
+                      </a>
+                    </li>
+                    <li>
+                      <a
+                        class="block w-full whitespace-nowrap bg-white px-4 py-4 text-sm font-normal text-neutral-700 hover:text-white hover:bg-orange-500 focus:bg-orange-500 focus:outline-none "
+                        href="#"
+                        data-twe-dropdown-item-ref
+                      >
+                        Prepare to Depart
+                      </a>
+                    </li>
+                    <li>
+                      <a
+                        class="block w-full whitespace-nowrap bg-white px-4 py-4 text-sm font-normal text-neutral-700 hover:text-white hover:bg-orange-500 focus:bg-orange-500 focus:outline-none "
+                        href="#"
+                        data-twe-dropdown-item-ref
+                      >
+                        Arrive & Thrive
                       </a>
                     </li>
                   </ul>
@@ -115,7 +160,43 @@ const Header = () => {
                         href="#"
                         data-twe-dropdown-item-ref
                       >
-                        Action
+                        Study in Ireland
+                      </a>
+                    </li>
+                    <li>
+                      <a
+                        class="block w-full whitespace-nowrap bg-white px-4 py-4 text-sm font-normal text-neutral-700 hover:text-white hover:bg-orange-500 focus:bg-orange-500 focus:outline-none "
+                        href="#"
+                        data-twe-dropdown-item-ref
+                      >
+                        Study in New Zealand
+                      </a>
+                    </li>
+                    <li>
+                      <a
+                        class="block w-full whitespace-nowrap bg-white px-4 py-4 text-sm font-normal text-neutral-700 hover:text-white hover:bg-orange-500 focus:bg-orange-500 focus:outline-none "
+                        href="#"
+                        data-twe-dropdown-item-ref
+                      >
+                        Study in UK
+                      </a>
+                    </li>
+                    <li>
+                      <a
+                        class="block w-full whitespace-nowrap bg-white px-4 py-4 text-sm font-normal text-neutral-700 hover:text-white hover:bg-orange-500 focus:bg-orange-500 focus:outline-none "
+                        href="#"
+                        data-twe-dropdown-item-ref
+                      >
+                        Study in USA
+                      </a>
+                    </li>
+                    <li>
+                      <a
+                        class="block w-full whitespace-nowrap bg-white px-4 py-4 text-sm font-normal text-neutral-700 hover:text-white hover:bg-orange-500 focus:bg-orange-500 focus:outline-none "
+                        href="#"
+                        data-twe-dropdown-item-ref
+                      >
+                        Study in Canada
                       </a>
                     </li>
                   </ul>

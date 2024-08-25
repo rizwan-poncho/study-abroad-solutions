@@ -1,10 +1,12 @@
 import React from "react";
-import HomeCarousel from "../components/HomeCarousel";
+import HomeCarousel from "../components/home/HomeCarousel";
+import HomeQueryForm from "../components/home/HomeQueryForm";
 
 const Home = () => {
   return (
     <>
       <HomeCarousel />
+      <HomeQueryForm />
     </>
   );
 };
