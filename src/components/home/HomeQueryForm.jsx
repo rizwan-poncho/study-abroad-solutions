@@ -3,6 +3,7 @@ import { Ripple, Input, initTWE } from "tw-elements";
 import { TESelect } from "tw-elements-react";
 import { TEInput } from "tw-elements-react";
 import TextField from "@mui/material/TextField";
+import p1 from "../../assets/p1.png";
 
 const HomeQueryForm = () => {
   const country = [
@@ -41,7 +42,7 @@ const HomeQueryForm = () => {
 
   return (
     <>
-      <div className="w-full h-full grid grid-cols-2 py-10 px-28">
+      <div className="gap-10 w-full h-full grid grid-cols-2 py-10 px-28">
         <div className="">
           <h1 className="font-medium py-3 text-3xl ">
             Help SAS get in touch with you
@@ -104,6 +105,10 @@ const HomeQueryForm = () => {
               Submit
             </button>
           </div>
+        </div>
+
+        <div className="h-full w-full">
+          <img src={p1} className=" !object-cover w-full" alt="" />
         </div>
       </div>
     </>
