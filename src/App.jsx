@@ -1,7 +1,6 @@
 import { useEffect, useState } from "react";
 
 import { Collapse, Dropdown, initTWE } from "tw-elements";
-
 import "./App.css";
 import Layout from "./Layout/Layout";
 

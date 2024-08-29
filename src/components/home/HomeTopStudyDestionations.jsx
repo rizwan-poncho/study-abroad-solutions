@@ -135,7 +135,7 @@ const HomeTopStudyDestinations = () => {
                   className="absolute inset-0 w-full h-64 z-0 object-cover object-center"
                   src={d5}
                 />
-                <div className="px-5 py-5 relative h-64 z-10 w-full border-4 border-gray-200 bg-slate-50 opacity-0 transition duration-300 hover:opacity-100">
+                <div className="px-5 py-5 cursor-pointer relative h-64 z-10 w-full border-4 border-gray-200 bg-slate-50 opacity-0 transition duration-300 hover:opacity-100">
                   <h2 className="tracking-widest text-xl title-font font-semibold text-orange-500 mb-1">
                     UNITED KINGDOM
                   </h2>
@@ -162,7 +162,7 @@ const HomeTopStudyDestinations = () => {
                   className="absolute inset-0 w-full h-64 z-0 object-cover object-center"
                   src={d6}
                 />
-                <div className="px-5 py-5 cursor-pointer relative z-10 w-full h-64 border-4 border-gray-200 bg-white transition duration-300 opacity-0 hover:opacity-100">
+                <div className="px-5 py-5 cursor-pointer relative z-10 w-full h-64 border-4 border-gray-200 bg-slate-50 transition duration-300 opacity-0 hover:opacity-100">
                   <h2 className="tracking-widest text-xl title-font font-semibold text-orange-500 mb-1">
                     UNITED STATES
                   </h2>
