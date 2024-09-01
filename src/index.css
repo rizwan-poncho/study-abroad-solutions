@@ -14,3 +14,11 @@ input[type="text"]:focus {
   background-color: #f0f4f8 !important; /* Change background color on focus */
   color: none !important; /* Change text color on focus */
 }
+.custom-background {
+  background: linear-gradient(
+    to bottom,
+    rgba(0, 0, 0, 0.1),
+    /* Black with 0.1 opacity at the top */ rgba(0, 0, 0, 0.8)
+      /* Black with 0.7 opacity at the bottom */
+  );
+}
