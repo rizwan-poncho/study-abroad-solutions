@@ -1,34 +1,34 @@
 [
   {
     "country": "USA",
-    "img": "/assets/usa.png"
+    "img": "usa.png"
   },
   {
     "country": "Australia",
-    "img": "/assets/australia.png"
+    "img": "australia.png"
   },
   {
     "country": "Canada",
-    "img": "/assets/canada.png"
+    "img": "canada.png"
   },
   {
     "country": "Finland",
-    "img": "/assets/finland.png"
+    "img": "finland.png"
   },
   {
     "country": "USA",
-    "img": "/assets/usa.png"
+    "img": "usa.png"
   },
   {
     "country": "Australia",
-    "img": "/assets/australia.png"
+    "img": "australia.png"
   },
   {
     "country": "Canada",
-    "img": "/assets/canada.png"
+    "img": "canada.png"
   },
   {
     "country": "Finland",
-    "img": "/assets/finland.png"
+    "img": "finland.png"
   }
 ]

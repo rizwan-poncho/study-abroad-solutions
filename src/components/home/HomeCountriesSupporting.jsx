@@ -2,9 +2,7 @@ import React, { useEffect, useState } from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 // Import Swiper core and required modules (if needed)
-
 import cData from "../../Data/countryCarousel.json";
-import axios from "axios";
 
 const HomeCountriesSupport = () => {
   const [countries, setCountries] = useState([]);
@@ -37,7 +35,7 @@ const HomeCountriesSupport = () => {
               <div className="w-full flex justify-center">
                 <div className="">
                   <img
-                    src={e.img}
+                    src={`../../assets/${e.img}`}
                     className="h-20 w-20 object-contain"
                     alt=""
                   />
