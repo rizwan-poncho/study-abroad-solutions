@@ -5,6 +5,7 @@ import HomeTopStudyDestinations from "../components/home/HomeTopStudyDestionatio
 import HomeWhyChooseSAS from "../components/home/HomeWhyChooseSAS";
 import HomeCountriesSupport from "../components/home/HomeCountriesSupporting";
 import HomeOutstandingImigration from "../components/home/HomeOutstandingImigration";
+import HomeCounting from "../components/home/HomeCounting";
 
 const Home = () => {
   return (
@@ -15,6 +16,7 @@ const Home = () => {
       <HomeWhyChooseSAS />
       <HomeCountriesSupport />
       <HomeOutstandingImigration />
+      <HomeCounting />
     </>
   );
 };

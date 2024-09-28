@@ -31,9 +31,9 @@ const HomeOutstandingImigration = () => {
         </div>
 
         <div className="w-full grid grid-cols-2 gap-10">
-          {service.slice(0, 2).map(() => {
+          {service.slice(0, 2).map((serviceItem1) => {
             return (
-              <div className="w-60 h-60  group ">
+              <div key={serviceItem1.topic} className="w-60 h-60  group ">
                 <div className="w-full relative">
                   <img
                     src={service1}
@@ -53,8 +53,8 @@ const HomeOutstandingImigration = () => {
                           </div>
                         </div>
                         <div className="px-5 py-5  flex justify-center">
-                          <p className="py-2 px-5 text-xl text-white  font-semibold">
-                            STUDENT VISA
+                          <p className="py-2 px-5 text-lg text-center text-white  font-semibold">
+                            {serviceItem1.topic}
                           </p>
                         </div>
                       </div>
@@ -64,11 +64,10 @@ const HomeOutstandingImigration = () => {
                     <div className="w-full h-full flex justify-center !items-center">
                       <div className="w-52 h-52 bg-white rounded px-3 py-3">
                         <p className="text-orange-500 text-lg font-semibold">
-                          STUDENT VISA
+                          {serviceItem1.topic}
                         </p>
                         <p className="text-xs text-slate-700 mt-5 text-justify">
-                          Efficient and reliable student visa services, guiding
-                          you through every step with expert support.
+                          {serviceItem1.des}
                         </p>
                         <button className="rounded-sm mt-10 py-1 px-4 bg-orange-500 text-white text-sm">
                           Learn More
@@ -83,9 +82,9 @@ const HomeOutstandingImigration = () => {
         </div>
       </div>
       <div className="w-full grid grid-cols-4 gap-10 mt-10">
-        {service.slice(2).map(() => {
+        {service.slice(2).map((serviceItem2) => {
           return (
-            <div className="w-60 h-60  group ">
+            <div key={serviceItem2.topic} className="w-60 h-60  group ">
               <div className="w-full relative">
                 <img
                   src={service1}
@@ -105,8 +104,8 @@ const HomeOutstandingImigration = () => {
                         </div>
                       </div>
                       <div className="px-5 py-5  flex justify-center">
-                        <p className="py-2 px-5 text-xl text-white  font-semibold">
-                          STUDENT VISA
+                        <p className="py-2 px-5 text-center text-lg text-white  font-semibold">
+                          {serviceItem2.topic}
                         </p>
                       </div>
                     </div>
@@ -116,11 +115,10 @@ const HomeOutstandingImigration = () => {
                   <div className="w-full h-full flex justify-center !items-center">
                     <div className="w-52 h-52 bg-white rounded px-3 py-3">
                       <p className="text-orange-500 text-lg font-semibold">
-                        STUDENT VISA
+                        {serviceItem2.topic}
                       </p>
                       <p className="text-xs text-slate-700 mt-5 text-justify">
-                        Efficient and reliable student visa services, guiding
-                        you through every step with expert support.
+                        {serviceItem2.des}
                       </p>
                       <button className="rounded-sm mt-10 py-1 px-4 bg-orange-500 text-white text-sm">
                         Learn More

@@ -3,6 +3,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { Collapse, Dropdown, initTWE, Ripple } from "tw-elements";
 import logo from "../../assets/logo-01.png";
 import { faCaretDown } from "@fortawesome/free-solid-svg-icons";
+import { Link } from "react-router-dom";
 
 const Header = () => {
   useEffect(() => {
@@ -47,12 +48,12 @@ const Header = () => {
             data-twe-collapse-item
           >
             {/* <!-- Logo --> */}
-            <a
+            <Link
               className="mb-4 me-5 ms-2 mt-3 flex items-center text-neutral-900 hover:text-neutral-900 focus:text-neutral-900 dark:text-neutral-200 dark:hover:text-neutral-400 dark:focus:text-neutral-400 lg:mb-0 lg:mt-0"
-              href="#"
+              to={"/"}
             >
               <img src={logo} className="h-8" alt="TE Logo" loading="lazy" />
-            </a>
+            </Link>
             {/* <!-- Left navigation links --> */}
             <ul
               className="list-style-none me-auto flex flex-col ps-0 lg:flex-row"
@@ -79,13 +80,13 @@ const Header = () => {
                     data-twe-dropdown-menu-ref
                   >
                     <li>
-                      <a
+                      <Link
                         class="block w-full whitespace-nowrap bg-white px-4 py-4 text-sm font-normal text-neutral-700 hover:text-white hover:bg-orange-500 focus:bg-orange-500 focus:outline-none "
-                        href="#"
+                        to={"/whystudyabroad"}
                         data-twe-dropdown-item-ref
                       >
                         Why Study Abroad
-                      </a>
+                      </Link>
                     </li>
                     <li>
                       <a
@@ -227,7 +228,61 @@ const Header = () => {
                         href="#"
                         data-twe-dropdown-item-ref
                       >
-                        Action
+                        Student Consultancy
+                      </a>
+                    </li>
+                    <li>
+                      <a
+                        class="block w-full whitespace-nowrap bg-white px-4 py-4 text-sm font-normal text-neutral-700 hover:text-white hover:bg-orange-500 focus:bg-orange-500 focus:outline-none "
+                        href="#"
+                        data-twe-dropdown-item-ref
+                      >
+                        File Processing
+                      </a>
+                    </li>
+                    <li>
+                      <a
+                        class="block w-full whitespace-nowrap bg-white px-4 py-4 text-sm font-normal text-neutral-700 hover:text-white hover:bg-orange-500 focus:bg-orange-500 focus:outline-none "
+                        href="#"
+                        data-twe-dropdown-item-ref
+                      >
+                        Visa Support
+                      </a>
+                    </li>
+                    <li>
+                      <a
+                        class="block w-full whitespace-nowrap bg-white px-4 py-4 text-sm font-normal text-neutral-700 hover:text-white hover:bg-orange-500 focus:bg-orange-500 focus:outline-none "
+                        href="#"
+                        data-twe-dropdown-item-ref
+                      >
+                        Documentation Support
+                      </a>
+                    </li>
+                    <li>
+                      <a
+                        class="block w-full whitespace-nowrap bg-white px-4 py-4 text-sm font-normal text-neutral-700 hover:text-white hover:bg-orange-500 focus:bg-orange-500 focus:outline-none "
+                        href="#"
+                        data-twe-dropdown-item-ref
+                      >
+                        Bank Support
+                      </a>
+                    </li>
+                    <li>
+                      <a
+                        class="block w-full whitespace-nowrap bg-white px-4 py-4 text-sm font-normal text-neutral-700 hover:text-white hover:bg-orange-500 focus:bg-orange-500 focus:outline-none "
+                        href="#"
+                        data-twe-dropdown-item-ref
+                      >
+                        Scholarship
+                      </a>
+                    </li>
+                    <li>
+                      <a
+                        class="block w-full whitespace-nowrap bg-white px-4 py-4 text-sm font-normal text-neutral-700 hover:text-white hover:bg-orange-500 focus:bg-orange-500 focus:outline-none "
+                        href="#"
+                        data-twe-dropdown-item-ref
+                      >
+                        Ticketing
                       </a>
                     </li>
                   </ul>
